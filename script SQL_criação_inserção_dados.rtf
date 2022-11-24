@@ -1,0 +1,81 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww18980\viewh10340\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs26 \cf0 \expnd0\expndtw0\kerning0
+create table Ambulatorios (nroa int, andar numeric(3) not null, capacidade smallint, primary key(nroa));\
+\
+create table Medicos (codm int, nome varchar(40) not null, idade smallint not null, especialidade char(20), CPF numeric(11) not null unique, cidade varchar(30), nroa int, primary key(codm), foreign key(nroa) references Ambulatorios);\
+\
+create table Pacientes (codp int, nome varchar(40) not null, idade smallint not null, cidade char(30), CPF numeric(11) not null unique, doenca varchar(40) not null, primary key(codp));\
+\
+create table Funcionarios (codf int, nome varchar(40) not null, idade smallint not null, CPF numeric(11) not null unique, cidade varchar(30), salario numeric(10), primary key(codf));\
+\
+create table Consultas (codm int, codp int, data date, hora time, primary key(codm, data, hora), foreign key(codm) references Medicos, foreign key(codp) references Pacientes);\
+\
+insert into Ambulatorios values(1,1,30);\
+\
+insert into Ambulatorios values(2,1,50);\
+\
+insert into Ambulatorios values(3,2,40);\
+\
+insert into Ambulatorios values(4,2,25);\
+\
+insert into Ambulatorios values(5,2,55);\
+\
+\
+insert into Medicos values (1, 'Joao', 40, 'ortopedia', 10000100000, 'Florianopolis', 1);\
+\
+insert into Medicos values (2, 'Maria', 42, 'traumatologia', 10000110000, 'Blumenau', 2);\
+\
+insert into Medicos values (3, 'Pedro', 51, 'pediatria', 11000100000, 'Sao Jose', 2);\
+\
+insert into Medicos (codm, nome, idade, especialidade, CPF, cidade) values (4, 'Carlos', 28, 'ortopedia', 11000110000, 'Joinville');\
+\
+\
+\
+insert into Pacientes values (1,'Ana', 21, 'Florianopolis', 20000200000, \'91cancer\'92);\
+\
+insert into Pacientes values (2,'Paulo', 24, \'91Ilhota\'92, 20000220000, 'fratura');\
+\
+insert into Pacientes values (3,'Lucia', 30, 'Biguacu', 22000200000, 'tendinite');\
+\
+insert into Pacientes  \
+values (4,'Carlos', 28, 'Joinville',11000110000, 'sarampo');\
+\
+\
+insert into Funcionarios values (1,'Rita', 32, 20000100000, 'Sao Jose', 1200);\
+\
+insert into Funcionarios values (2,\'92Vera\'92, 55, 30000110000, 'Palhoca', 1220);\
+\
+insert into Funcionarios values (3,'Caio', 45, 41000100000, 'Florianopolis', 1100);\
+\
+insert into Funcionarios values (5,'Paula', 33, 61000111000, 'Florianopolis', 2500);\
+\
+\
+insert into Consultas values (1,1,'2020/10/12','14:00');\
+\
+insert into Consultas values (1,4,'2020/11/4\'92,\'9212:00');\
+\
+insert into Consultas values (2,1,'2020/10/13','9:00');\
+\
+insert into Consultas values (2,2,'2020/10/13','11:00');\
+\
+insert into Consultas values (2,3,'2020/10/14','14:00');\
+\
+insert into Consultas values (2,4,'2020/10/14','17:00');\
+\
+insert into Consultas values (3,1,'2020/10/19','18:00');\
+\
+insert into Consultas values (3,3,'2020/10/12','10:00');\
+\
+insert into Consultas values (3,4,'2020/10/19','14:30');\
+\
+insert into Consultas values (4,4,'2020/10/20','13:00');\
+\
+\
+}
