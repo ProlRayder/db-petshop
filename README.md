@@ -1,7 +1,5 @@
 # Petshop Virtual - Sistema de Gerenciamento com MySQL
 
-![como-montar-um-pet-shop1](https://user-images.githubusercontent.com/44483048/204955264-f1bdf4a2-9582-4020-ad32-d0779886f3ee.jpg)
-
 Bem-vindo ao repositório do projeto de um Petshop Virtual, um sistema desenvolvido para gerenciar todas as operações diárias de um negócio de petshop. Este projeto foi desenvolvido como parte do aprendizado em Fundamentos de Banco de Dados.
 
 ## Descrição do Projeto
@@ -37,3 +35,5 @@ Com base na nossa experiência, recomendamos o uso do MySQL como banco de dados 
 Este projeto faz parte do aprendizado em Fundamentos de Banco de Dados. Para mais detalhes sobre o desenvolvimento e implementação, consulte a documentação no diretório correspondente.
 
 Agradecemos por explorar nosso repositório! Se tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato.
+
+**Equipe de Desenvolvimento**
