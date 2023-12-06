@@ -1,39 +1,39 @@
-# Petshop Virtual - Sistema de Gerenciamento com MySQL
+# Virtual Petshop - Management System with MySQL
 
-Bem-vindo ao repositório do projeto de um Petshop Virtual, um sistema desenvolvido para gerenciar todas as operações diárias de um negócio de petshop. Este projeto foi desenvolvido como parte do aprendizado em Fundamentos de Banco de Dados.
+Welcome to the Virtual Petshop project repository, a system designed to manage all daily operations of a petshop business. This project was developed as part of the learning in Database Fundamentals.
 
-## Descrição do Projeto
+## Project description
 
-Recentemente, enfrentamos o desafio de criar um sistema abrangente que pudesse gerenciar clientes, animais, vendas e estoque para um petshop virtual. Optamos por utilizar o banco de dados MySQL devido à sua escalabilidade, facilidade de uso e ampla compatibilidade com outras ferramentas e linguagens de programação.
+We were recently faced with the challenge of creating a comprehensive system that could manage customers, animals, sales and inventory for a virtual pet store. We chose to use the MySQL database due to its scalability, ease of use and broad compatibility with other tools and programming languages.
 
-## Banco de Dados MySQL
+## MySQL Database
 
-### Estrutura do Banco de Dados
+### Database Structure
 
-- Tabelas para clientes, animais, produtos e vendas.
-- Relacionamentos entre as tabelas para garantir integridade e consistência dos dados.
+- Tables for customers, animals, products and sales.
+- Relationships between tables to ensure data integrity and consistency.
 
-### Funcionalidades Desenvolvidas
+### Features Developed
 
-- Operações CRUD (Create, Read, Update, Delete) implementadas para todas as entidades.
-- Utilização da linguagem SQL para interação com o banco de dados.
+- CRUD operations (Create, Read, Update, Delete) implemented for all entities.
+- Use of the SQL language to interact with the database.
 
-## Desenvolvimento do Projeto
+## Project development
 
-Com a estrutura do banco de dados estabelecida, concentramos nossos esforços no desenvolvimento das funcionalidades do sistema. A linguagem SQL foi fundamental para conectar o sistema ao MySQL e criar as operações necessárias para gerenciar as informações armazenadas.
+With the database structure established, we focused our efforts on developing the system's functionalities. The SQL language was fundamental to connect the system to MySQL and create the necessary operations to manage the stored information.
 
-## Destaques do MySQL
+## MySQL Highlights
 
-O MySQL demonstrou ser uma ferramenta poderosa e confiável ao longo do projeto. Suas características de escalabilidade, eficiência no armazenamento e segurança dos dados foram fundamentais para o sucesso do nosso sistema de petshop virtual.
+MySQL proved to be a powerful and reliable tool throughout the project. Its scalability, storage efficiency and data security characteristics were fundamental to the success of our virtual petshop system.
 
-## Recomendação
+## Recommendation
 
-Com base na nossa experiência, recomendamos o uso do MySQL como banco de dados para projetos similares. Sua flexibilidade e desempenho fizeram dele uma escolha excelente para o gerenciamento eficiente de grandes volumes de dados em nosso sistema.
+Based on our experience, we recommend using MySQL as a database for similar projects. Its flexibility and performance made it an excellent choice for efficiently managing large volumes of data in our system.
 
-## Detalhes do Projeto
+## Project Details
 
-Este projeto faz parte do aprendizado em Fundamentos de Banco de Dados. Para mais detalhes sobre o desenvolvimento e implementação, consulte a documentação no diretório correspondente.
+This project is part of the learning in Database Fundamentals. For more details on development and implementation, see the documentation in the corresponding directory.
 
-Agradecemos por explorar nosso repositório! Se tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato.
+Thanks for exploring our repository! If you have any questions or suggestions, feel free to get in touch.
 
-**Equipe de Desenvolvimento**
+**Development team**
